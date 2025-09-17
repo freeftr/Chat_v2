@@ -31,6 +31,7 @@ public class ChatRoomService {
 				.build();
 
 		chatRoomJpaRepository.save(chatRoom);
+		return null;
 	}
 
 	private Member getMember(Long memberId) {
