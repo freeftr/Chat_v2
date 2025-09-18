@@ -4,6 +4,6 @@ import java.util.List;
 
 public record ChatRoomCreateRequest(
 		String chatRoomName,
-		List<Long> partnerIds
+		Long guestId
 ) {
 }
